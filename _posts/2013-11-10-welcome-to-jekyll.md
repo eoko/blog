@@ -9,6 +9,43 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+
+```php
+<?php
+
+echo "test";
+
+```
+
+Result	Markdown
+**text**
+*text*
+~~text~~
+[title](http://)
+`code`
+![alt](http://)
+
+* item
+* item
+
+> quote
+# Heading
+## Heading
+### Heading
+
+
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
