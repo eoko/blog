@@ -1,5 +1,5 @@
 ---
-title:  "Create a static Blog with Jekkil (Part 1)"
+title:  "Create a static blog with Jekill (Part 1)"
 date:   2013-11-10 10:18:00
 description: Thriller Comedy Horror
 ---
@@ -15,14 +15,9 @@ So, let's start with the fun stuff, the rant...
 > "The community stagnates without the impulse of the individual. The impulse dies away without the sympathy of the community."
 > - William James
 
-This quote is really what anyone has to know and provide us a quick answer to the question : "How a community start?"
-
-I you look at the history, whitout the impulse of Linus Torvald and the sympathy of Ari Lemmke, an operating system like `Freax` will never be `Linux`. 
-Of course, this example is laughable but this was a start. Now and with a huge work by the community (and a lot of commercial interest) Linux
-grown from a one man idea (and a lot of inspiration) to be part of our quotidian life.
-
 
 ## The lesson : Fork, install, build and preview
+
 
 
 
@@ -152,9 +147,9 @@ Result	Markdown
 **text**
 *text*
 ~~text~~
-[title](http://)
+[coucou](http://eoko.fr)
 `code`
-![alt](http://)
+![alt](http://eoko.fr)
 
 * item
 * item

@@ -7,17 +7,16 @@
     <atom:link href="http://your-blog-url.example.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Development flow for REST API</title>
         
         
-          <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!&lt;br /&gt;
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+          <description>&lt;p&gt;&lt;em&gt;This has to start…&lt;/em&gt;&lt;/p&gt;
 
 </description>
         
         <pubDate>Sun, 10 Nov 2013 11:18:00 +0100</pubDate>
-        <link>http://your-blog-url.example.com/2013/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2013/welcome-to-jekyll/</guid>
+        <link>http://your-blog-url.example.com/2013/welcome-to-jekyll0/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2013/welcome-to-jekyll0/</guid>
       </item>
     
       <item>
@@ -34,7 +33,21 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
       </item>
     
       <item>
-        <title>Create a static Blog with Jekkil (Part 1)</title>
+        <title>Welcome to Jekyll!</title>
+        
+        
+          <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!&lt;br /&gt;
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 10 Nov 2013 11:18:00 +0100</pubDate>
+        <link>http://your-blog-url.example.com/2013/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2013/welcome-to-jekyll/</guid>
+      </item>
+    
+      <item>
+        <title>Create a static blog with Jekill (Part 1)</title>
         
         
           <description>&lt;p&gt;&lt;em&gt;This has to start…&lt;/em&gt;&lt;/p&gt;

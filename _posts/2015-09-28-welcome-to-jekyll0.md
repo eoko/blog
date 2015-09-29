@@ -144,9 +144,9 @@ Result	Markdown
 **text**
 *text*
 ~~text~~
-[title](http://)
+[title](http://eoko.fr)
 `code`
-![alt](http://)
+![alt](http://eoko.fr)
 
 * item
 * item
