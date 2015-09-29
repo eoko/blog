@@ -9,7 +9,7 @@ kramdown:
 
 highlighter: pygments
 
-
+exclude: [vendor]
 
 paginate: 20
 baseurl: /
