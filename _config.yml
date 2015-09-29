@@ -11,15 +11,15 @@ highlighter: pygments
 
 exclude: [vendor]
 
-paginate: 20
+paginate: 10
 baseurl: /
-domain_name: 'http://eoko.fr'
+domain_name: 'http://blog.eoko.fr'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url: 'http://blog.eoko.fr'
 
 authors:
   hanzou:
