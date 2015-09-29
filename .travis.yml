@@ -3,18 +3,19 @@ rvm:
 - 2.1
 script:
 - bundle exec jekyll build
-- bundle exec htmlproof ./_site --verbose --only-4xx --check-favicon --check-html
-  --href-ignore "#"
+- bundle exec htmlproof ./_site --verbose --only-4xx --check-favicon --check-html --href-ignore "#"
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 deploy:
   provider: s3
+  skip_cleanup: true
   access_key_id: AKIAIHVT7VA4H7XUOXIA
   secret_access_key:
     secure: MtjyU+i566j1KKWjFwT5uithSIWd3bYxpmJZT2PA8gDjVXG8Bfn1ZiGpOHfqI4Q/GVgsOqT0ON+RQM9L2njkc2rJD3eh7Xmwwbf9zuQDh3ScgyJdJc1kk6670paJN1iuWUBm9yF6gaM9IQ5SaA/5wi7m26j6NbKYN75aFdYdq6pPlmpb2BZ+9DYzrwcddmWyQ3852r0yo2c0bEQMw6jJmdwmHMc0jAE/2lup6ChN7gIDjVhuVGaBCjmvY1bfOGMN4pBDYgzUOD91DlkGRWa976q/s5ttBojaMl9tadzQRIQdVxC23L/Hs+zfKo22KeM787HhNXoC6mkX5E3jt8WAP/hPthD13NPc6uw+C016xlpur/aWW4et1zVurTfK1mepGeazMb5l8ubJOGoz9zgn31s13PFu1FSB9CoZtjJkchqffxs7eBp0ZGrNtxF+ypr6KWQ25AFj3PYaX3TkFc91Tx7Gw+9WTol56Jtos7QeG+ZWuIDFaT77talH+Sl/Z6FM8ON7hUTaVQGOhM8ei6L8zeWy0wOjBMBg+0g8aa7YxwiEXkYEaK+kCDxQTecXrnlmeXqFyyTAAvBfEVUEzThg3RQ6kITwF6u1AzUuiJrfHaTrmI50lfbIsvrotKn9YYFL3St1xOV8f84Br/Pzhnp2ioygNRTm8kqNI7wb22JZb+c=
   bucket: "blog.eoko.fr"
   region: eu-west-1
+
   local-dir: _site
   acl: public_read
   on:
