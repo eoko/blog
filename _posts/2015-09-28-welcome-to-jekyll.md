@@ -1,5 +1,5 @@
 ---
-title:  "Development flow for REST API"
+title:  "r"
 date:   2013-11-10 10:18:00
 description: Thriller Comedy Horror
 ---
@@ -15,7 +15,7 @@ So, let's start with the fun stuff, the rant...
 > "Walking on water and developing software from a specification are easy if both are frozen."
 > - Edward V Berard
 
-## The lesson : 
+## The lesson :
 
 
 THIS HAS TO STOP...
@@ -144,9 +144,9 @@ Result	Markdown
 **text**
 *text*
 ~~text~~
-[title](http://)
+[title](http://eoko.fr)
 `code`
-![alt](http://)
+![alt](http://eoko.fr)
 
 * item
 * item
