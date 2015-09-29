@@ -6,7 +6,7 @@ description: Thriller Comedy Horror
 
 Nous recherchons toujours les solutions les plus efficaces pour nos clients afin de
 répondre à leurs problématiques. Mais un cordonnier est toujours le plus mal chaussé
-et nous trainons bien sans mal notre blog (Eoko)[http://eoko.fr] depuis trop longtemps.
+et nous trainons bien sans mal notre blog [Eoko](http://eoko.fr) depuis trop longtemps.
 
 À l'origine, notre vision du blog n'était pas sans ambition, nous voulions échanger et
 partager notre savoir. Mais nous ne conaissions pas encore cette univers.
@@ -65,47 +65,37 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 
+~~~ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+~~~
+
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
+e
 
 ```php
 <?php
 
-echo "test";
+echo "jjj";
 
 ```
 
-Result	Markdown
-**text**
-*text*
-~~text~~
-[title](http://eoko.fr)
-`code`
-![alt](http://eoko.fr)
-
-* item
-* item
-
-> quote
-# Heading
-## Heading
-### Heading
 
 
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
+```ruby
+def foo
+  puts 'foo'
 end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+```
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+~~~ ruby
+def foo
+  puts 'foo'
+end
+~~~

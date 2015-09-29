@@ -3,14 +3,23 @@ description: Blogging about dev, php, js and web application
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 aboutPage: true
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-highlighter: pygments
 
 exclude: [vendor]
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  hard_wrap: false
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter_opts:
+      line_numbers: false
+      wrap: true
+
 
 paginate: 10
 baseurl: /

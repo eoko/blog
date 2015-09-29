@@ -182,11 +182,23 @@ a,
 	transition: all 0.15s ease;
 }
 
+#post-body ul 	{ margin:0; margin-bottom: 40px; padding:0; }
+#post-body li	{ list-style: none; text-indent: 2em; }
+#post-body li::before {
+	content: "• ";
+	padding-right: 15px;
+	color: #5badf0;
+}
+
+
 ul 	{ margin:0; padding:0; }
 li	{ list-style-type:circle; list-style-position:inside; }
 
 /* Line Height */
-#post-body, p { line-height:1.7; }
+#post-body, p {
+    text-align: justify;
+		line-height:1.7;
+	}
 
 b, strong { font-weight: 500;
   color: #1E2025; }
